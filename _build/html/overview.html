@@ -1,0 +1,372 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Installation &mdash; iOSNotification 1.1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="iOSNotification 1.1 documentation" href="index.html"/>
+        <link rel="prev" title="Welcome to iOSNotification’s documentation!" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> iOSNotification
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#create-iosnotification-with-code">Create IOSNotification With Code</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#schedule-simple-notification">Schedule simple notification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#schedule-delayed-notifications">Schedule delayed notifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#repeating-notifications">Repeating notifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#set-up-badge-number">Set Up Badge Number</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#settings-custom-sound">Settings custom sound</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cancel-notification-by-id-both-repeating-and-one-time">Cancel notification by id (both repeating and one-time)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cancel-all-notification">Cancel all notification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clear-shown-notifications">Clear shown notifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#updating-notifications">Updating notifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#show-ios-toast-notification">Show IOS toast notification</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#create-iosnotification-with-visual-tool">Create IOSNotification With Visual Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#push-notification-with-onesignal-integration">Push Notification with OneSignal integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#modifying-plugin">Modifying plugin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#other">Other</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">iOSNotification</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Installation</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/overview.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="installation">
+<span id="overview"></span><h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<p>Import <a class="reference external" href="http://u3d.as/pUc">this plugin</a> to your Unity project</p>
+<p>Now you could build and run application to test. But please read all documentation!</p>
+<img alt="_images/screen_one.png" class="align-center" src="_images/screen_one.png" />
+</div>
+<div class="section" id="create-iosnotification-with-code">
+<h1>Create IOSNotification With Code<a class="headerlink" href="#create-iosnotification-with-code" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="schedule-simple-notification">
+<h2>Schedule simple notification<a class="headerlink" href="#schedule-simple-notification" title="Permalink to this headline">¶</a></h2>
+<p>The package contains code samples in Assets/Area730/Notifications/Examples/Scripts folder. Also you can build and run example scene <em>Assets/Area730/Notifications/IOS/Examples</em> to test notification.</p>
+<p>The notifications are created using <code class="docutils literal"><span class="pre">IOSNotificationBuilder</span></code> class. Its constructor takes 3 arguments - <code class="docutils literal"><span class="pre">id</span></code> of the notification, <code class="docutils literal"><span class="pre">title</span></code> and <code class="docutils literal"><span class="pre">notification</span> <span class="pre">text</span></code>.</p>
+<p>Next example example shows how to schedule the notification that will be shown immediately:</p>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">id</span>          <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+<span class="kt">string</span> <span class="n">title</span>    <span class="p">=</span> <span class="s">&quot;Notification titile&quot;</span><span class="p">;</span>
+<span class="kt">string</span> <span class="n">body</span>     <span class="p">=</span> <span class="s">&quot;Notification body&quot;</span><span class="p">;</span>
+
+<span class="n">IOSNotificationBuilder</span> <span class="n">builder</span> <span class="p">=</span> <span class="k">new</span> <span class="n">IOSNotificationBuilder</span> <span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">body</span><span class="p">);</span>
+<span class="n">IOSNotifications</span><span class="p">.</span><span class="n">scheduleNotification</span><span class="p">(</span><span class="n">builder</span><span class="p">.</span><span class="n">build</span><span class="p">());</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="schedule-delayed-notifications">
+<h2>Schedule delayed notifications<a class="headerlink" href="#schedule-delayed-notifications" title="Permalink to this headline">¶</a></h2>
+<p>If you want to set delay - call <code class="docutils literal"><span class="pre">builder.setDelay(int</span> <span class="pre">milliseconds)</span></code> or <code class="docutils literal"><span class="pre">builder.setDelay(System.TimeSpan</span> <span class="pre">delayTime)</span></code>. The next example shows how to create a notification that will be shown in one hour:</p>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">id</span>          <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+<span class="kt">string</span> <span class="n">title</span>    <span class="p">=</span> <span class="s">&quot;Notification titile&quot;</span><span class="p">;</span>
+<span class="kt">string</span> <span class="n">body</span>     <span class="p">=</span> <span class="s">&quot;Notification body&quot;</span><span class="p">;</span>
+
+<span class="c1">// Show notification in one hour</span>
+<span class="n">TimeSpan</span> <span class="n">delay</span>  <span class="p">=</span> <span class="k">new</span> <span class="n">TimeSpan</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+
+<span class="n">IOSNotificationBuilder</span> <span class="n">builder</span> <span class="p">=</span> <span class="k">new</span> <span class="n">IOSNotificationBuilder</span> <span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">body</span><span class="p">);</span>
+<span class="n">builder</span><span class="p">.</span><span class="n">setDelay</span><span class="p">(</span><span class="n">delay</span><span class="p">);</span>
+
+<span class="n">IOSNotifications</span><span class="p">.</span><span class="n">scheduleNotification</span><span class="p">(</span><span class="n">builder</span><span class="p">.</span><span class="n">build</span><span class="p">());</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="repeating-notifications">
+<h2>Repeating notifications<a class="headerlink" href="#repeating-notifications" title="Permalink to this headline">¶</a></h2>
+<p>To set repeating notification you should set notification as repeating and set the time interval.
+According to <a class="reference external" href="https://developer.apple.com/library/prerelease/watchos/documentation/iPhone/Reference/UILocalNotification_Class/index.html#//apple_ref/occ/instp/UILocalNotification/repeatInterval">Apple documntaion</a>  it is allowed to repeat notification every:</p>
+<ol class="arabic simple">
+<li>Minute</li>
+<li>Hour</li>
+<li>Day</li>
+<li>Month</li>
+<li>Year</li>
+</ol>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">id</span>          <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+<span class="kt">string</span> <span class="n">title</span>    <span class="p">=</span> <span class="s">&quot;Notification titile&quot;</span><span class="p">;</span>
+<span class="kt">string</span> <span class="n">body</span>     <span class="p">=</span> <span class="s">&quot;Notification body&quot;</span><span class="p">;</span>
+
+<span class="c1">// Show notification in one hour</span>
+<span class="n">IOSNotificationBuilder</span> <span class="n">builder</span> <span class="p">=</span> <span class="k">new</span> <span class="n">IOSNotificationBuilder</span> <span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">body</span><span class="p">);</span>
+<span class="n">builder</span><span class="p">.</span><span class="n">setInterval</span><span class="p">(</span><span class="n">IntervalUnits</span><span class="p">.</span><span class="n">HOUR</span><span class="p">);</span>
+
+<span class="n">IOSNotifications</span><span class="p">.</span><span class="n">scheduleNotification</span><span class="p">(</span><span class="n">builder</span><span class="p">.</span><span class="n">build</span><span class="p">());</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="set-up-badge-number">
+<h2>Set Up Badge Number<a class="headerlink" href="#set-up-badge-number" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">id</span>          <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+<span class="kt">string</span> <span class="n">title</span>    <span class="p">=</span> <span class="s">&quot;Notification titile&quot;</span><span class="p">;</span>
+<span class="kt">string</span> <span class="n">body</span>     <span class="p">=</span> <span class="s">&quot;Notification body&quot;</span><span class="p">;</span>
+
+<span class="c1">// Show notification in one hour</span>
+<span class="n">IOSNotificationBuilder</span> <span class="n">builder</span> <span class="p">=</span> <span class="k">new</span> <span class="n">IOSNotificationBuilder</span> <span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">body</span><span class="p">);</span>
+<span class="n">builder</span><span class="p">.</span><span class="n">setNumber</span><span class="p">(</span><span class="m">3</span><span class="p">);</span>
+
+<span class="n">IOSNotifications</span><span class="p">.</span><span class="n">scheduleNotification</span><span class="p">(</span><span class="n">builder</span><span class="p">.</span><span class="n">build</span><span class="p">());</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="settings-custom-sound">
+<h2>Settings custom sound<a class="headerlink" href="#settings-custom-sound" title="Permalink to this headline">¶</a></h2>
+<p>Now its supported only <code class="docutils literal"><span class="pre">wav</span></code> format sound notification.
+Next section show how to use custom sound for notification</p>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="n">IOSNotificationBuilder</span> <span class="n">builder</span> <span class="p">=</span> <span class="k">new</span> <span class="n">IOSNotificationBuilder</span> <span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">body</span><span class="p">);</span>
+<span class="n">builder</span><span class="p">.</span><span class="n">setSound</span><span class="p">(</span><span class="s">&quot;notification_sound&quot;</span><span class="p">);</span><span class="c1">//without wav extention</span>
+
+<span class="n">IOSNotifications</span><span class="p">.</span><span class="n">scheduleNotification</span><span class="p">(</span><span class="n">builder</span><span class="p">.</span><span class="n">build</span><span class="p">());</span>
+</pre></div>
+</div>
+<p><strong>*Important</strong> <em>When you set up sound via script please add source file to the xCode project into *Data/Raw</em> folder manually.*
+If you change audioclips via Editor please check <em>Assets/StreamingAssets</em> and <em>Assets/Plugins/IOS/Notifications</em> folders to delete old clips.</p>
+</div>
+<div class="section" id="cancel-notification-by-id-both-repeating-and-one-time">
+<h2>Cancel notification by id (both repeating and one-time)<a class="headerlink" href="#cancel-notification-by-id-both-repeating-and-one-time" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="c1">//cancel notification with id 7</span>
+<span class="n">IOSNotifications</span><span class="p">.</span><span class="n">cancelNotification</span><span class="p">(</span><span class="m">7</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="cancel-all-notification">
+<h2>Cancel all notification<a class="headerlink" href="#cancel-all-notification" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="c1">//cancel all notification</span>
+<span class="n">IOSNotifications</span><span class="p">.</span><span class="n">cancelAll</span><span class="p">();</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="clear-shown-notifications">
+<h2>Clear shown notifications<a class="headerlink" href="#clear-shown-notifications" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="n">IOSNotifications</span><span class="p">.</span><span class="n">clearAll</span><span class="p">();</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="updating-notifications">
+<h2>Updating notifications<a class="headerlink" href="#updating-notifications" title="Permalink to this headline">¶</a></h2>
+<p>To update one-time or repeating notification, schedule a notification with updated data and with ID of the notification you want to update.</p>
+</div>
+<div class="section" id="show-ios-toast-notification">
+<h2>Show IOS toast notification<a class="headerlink" href="#show-ios-toast-notification" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="n">IOSNotifications</span><span class="p">.</span><span class="n">showToast</span><span class="p">(</span><span class="s">&quot;Download completed&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="create-iosnotification-with-visual-tool">
+<h1>Create IOSNotification With Visual Tool<a class="headerlink" href="#create-iosnotification-with-visual-tool" title="Permalink to this headline">¶</a></h1>
+<img alt="_images/notification.png" class="align-center" src="_images/notification.png" />
+<p>To open visual tool to create notification go to <em>Window-&gt;IOS Local Notification</em></p>
+<p>Next example shows scheduling of the notification created in editor with name <strong>notificationOne</strong></p>
+<div class="highlight-c#"><div class="highlight"><pre><span></span><span class="kt">string</span> <span class="n">notificationName</span> <span class="p">=</span> <span class="s">&quot;notificationOne&quot;</span><span class="p">;</span>
+
+<span class="c1">// Method returns builder so you can config your notification afterwards if you want</span>
+<span class="n">IOSNotificationBuilder</span> <span class="n">builder</span> <span class="p">=</span> <span class="n">IOSNotifications</span><span class="p">.</span><span class="n">GetNotificationBuilderByName</span><span class="p">(</span><span class="n">notificationName</span><span class="p">);</span>
+
+<span class="c1">// If notification with specified name doesn&#39;t exist builder will be null</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">builder</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">IOSNotification</span> <span class="n">notif</span> <span class="p">=</span> <span class="n">builder</span><span class="p">.</span><span class="n">build</span><span class="p">();</span>
+    <span class="n">IOSNotifications</span><span class="p">.</span><span class="n">scheduleNotification</span><span class="p">(</span><span class="n">notif</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="push-notification-with-onesignal-integration">
+<h1>Push Notification with <a class="reference external" href="https://onesignal.com/">OneSignal</a> integration<a class="headerlink" href="#push-notification-with-onesignal-integration" title="Permalink to this headline">¶</a></h1>
+<p>Add <code class="docutils literal"><span class="pre">CrossPlatformPushNotificationController.cs</span></code> to some object in your scene
+and paste <code class="docutils literal"><span class="pre">id</span></code> from created application in onesignal. For more information go <a class="reference external" href="https://documentation.onesignal.com/docs/generating-an-ios-push-certificate">here</a></p>
+</div>
+<div class="section" id="modifying-plugin">
+<h1>Modifying plugin<a class="headerlink" href="#modifying-plugin" title="Permalink to this headline">¶</a></h1>
+<p>All native source code is holding in <em>Assets/Plugins/IOS/Notifications</em></p>
+</div>
+<div class="section" id="other">
+<h1>Other<a class="headerlink" href="#other" title="Permalink to this headline">¶</a></h1>
+<p>All classes are located in <strong>Area730.Notifications.IOS</strong> namespace</p>
+<p>Example scene with sample code is included in the package <em>(Assets/Area730/Notifications/Examples)</em></p>
+<div class="toctree-wrapper compound">
+<ul class="simple">
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Welcome to iOSNotification’s documentation!" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Area730.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
